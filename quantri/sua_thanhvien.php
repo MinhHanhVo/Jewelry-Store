@@ -1,5 +1,5 @@
 <?php
-require "../cauhinh/ketnoi.php";
+require "../config/ketnoi.php";
 
 $id = $_GET['id'];
 

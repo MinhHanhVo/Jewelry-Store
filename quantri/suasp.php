@@ -1,6 +1,6 @@
 <?php
 ob_start();
-require "../cauhinh/ketnoi.php";
+require "../config/ketnoi.php";
 $id_sp = $_GET['id_sp'];
 $sql = "SELECT * FROM sanpham WHERE id_sp = $id_sp";
 $query = mysqli_query($conn, $sql);

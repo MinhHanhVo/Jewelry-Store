@@ -1,5 +1,5 @@
 <?php
-    require "../cauhinh/ketnoi.php";
+    require "../config/ketnoi.php";
 
     // Handle status update
     if (isset($_POST['update_status'])) {

@@ -1,5 +1,5 @@
 <?php
-require "../cauhinh/ketnoi.php";
+require "../config/ketnoi.php";
 $sql = "SELECT * FROM dmsanpham ORDER BY id_dm ASC";
 $query = mysqli_query($conn, $sql);
 ?>

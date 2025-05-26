@@ -4,8 +4,8 @@
             <div class="footer-logo">
                 <img src="anh/logo.png" alt="Company Logo">
                 <ul>
-                    <li><a href="#">Trang sức Hạnh Phương</a></li>
-                    <li><a href="#">2151150037-2151150053</a></li>
+                    <li><a href="#">Trang sức Jewelry Store</a></li>
+                    <li><a href="#">Niềm tin - Chất lượng</a></li>
                 </ul>
             </div>
             <div class="footer-links">

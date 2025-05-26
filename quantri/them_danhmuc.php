@@ -1,5 +1,5 @@
 <?php
-require "../cauhinh/ketnoi.php";
+require "../config/ketnoi.php";
 
 // Kiểm tra nếu người dùng đã gửi form thêm danh mục
 if (isset($_POST['add'])) {

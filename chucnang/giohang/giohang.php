@@ -1,6 +1,6 @@
 <?php
 //session_start();
-require "cauhinh/ketnoi.php"; // Kết nối cơ sở dữ liệu của bạn
+require "config/ketnoi.php"; // Kết nối cơ sở dữ liệu của bạn
 
 if (isset($_POST['update_cart'])) {
     if (isset($_POST['sl'])) {

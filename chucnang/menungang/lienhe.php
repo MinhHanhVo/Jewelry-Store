@@ -8,7 +8,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d52719.8435189044!2d106.60488200603714!3d10.855182141428866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1723349644035!5m2!1svi!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="contact-info">
-            <p>Vui lòng liên hệ với trang sức Hạnh Phương theo địa chỉ bên dưới, xin cảm ơn quý khách, rất hân hạnh được phục vụ!</p>
+            <p>Vui lòng liên hệ với Jewelry Store theo địa chỉ bên dưới, xin cảm ơn quý khách, rất hân hạnh được phục vụ!</p>
             <ul>
                 <li><i class="fa fa-phone"></i> 0368.686.868 (chính)</li>
                 <li><i class="fa fa-phone"></i> 0388.468.999 (phụ)</li>

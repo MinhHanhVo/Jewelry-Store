@@ -1,7 +1,7 @@
 
 
 <?php
-require "../cauhinh/ketnoi.php";
+require "../config/ketnoi.php";
 $sql="SELECT *FROM thanhvien ORDER BY id_thanhvien ASC";
 $query=mysqli_query($conn,$sql);
 ?>

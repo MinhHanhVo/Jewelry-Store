@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require "../cauhinh/ketnoi.php";
+	require "../config/ketnoi.php";
 	if(isset($_SESSION['tk'])){
 		$id_sp = $_GET['id_sp'];
 		$sql = "DELETE FROM sanpham WHERE id_sp = $id_sp";

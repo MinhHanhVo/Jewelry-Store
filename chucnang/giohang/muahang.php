@@ -4,7 +4,7 @@
 //session_start();
 
 // Kết nối tới cơ sở dữ liệu
-require "cauhinh/ketnoi.php";
+require "config/ketnoi.php";
 
 // Khởi tạo biến để lưu thông báo lỗi cho từng trường
 $ten_error = $mail_error = $dt_error = $dc_error = '';

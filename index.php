@@ -1,13 +1,13 @@
 
 <?php
 session_start();
-require "cauhinh/ketnoi.php";
+require "config/ketnoi.php";
 ?>
 <!DOCTYPE html>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Trang sức Hạnh Phương</title>
+    <title>Jewelry Store</title>
     <script src="https://kit.fontawesome.com/7a44704f56.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/trangchu.css" />
     <link rel="stylesheet" type="text/css" href="css/header.css" />

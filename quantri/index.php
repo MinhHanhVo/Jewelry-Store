@@ -1,7 +1,6 @@
 <?php
 	session_start();
-	//include_once('./cauhinh/ketnoi.php');
-	require "../cauhinh/ketnoi.php";
+	require "../config/ketnoi.php";
 	$error = NULL;
 	if(isset($_POST['submit'])){
 		if($_POST['tk']==""){

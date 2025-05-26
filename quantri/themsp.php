@@ -1,5 +1,5 @@
 <?php
-require "../cauhinh/ketnoi.php";
+require "../config/ketnoi.php";
 $sql = "SELECT * FROM sanpham";
 $query = mysqli_query($conn, $sql);
 $error = NULL;

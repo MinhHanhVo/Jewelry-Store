@@ -1,5 +1,5 @@
 <?php
-require "../cauhinh/ketnoi.php";
+require "../config/ketnoi.php";
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];

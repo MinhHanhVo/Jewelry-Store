@@ -1,5 +1,5 @@
 <?php
-require "../cauhinh/ketnoi.php";
+require "../config/ketnoi.php";
 
 // Lấy ID của danh mục cần chỉnh sửa từ URL
 if (isset($_GET['id'])) {

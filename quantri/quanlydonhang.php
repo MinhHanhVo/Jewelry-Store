@@ -1,6 +1,6 @@
 <?php
 // Start session and connect to the database
-require "../cauhinh/ketnoi.php";
+require "../config/ketnoi.php";
 
 // Handle order status update
 if (isset($_POST['update_status'])) {

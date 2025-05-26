@@ -1,5 +1,5 @@
 <?php
-require "cauhinh/ketnoi.php";
+require "config/ketnoi.php";
 
 // Hàm để lấy số lượng sản phẩm đã thêm vào giỏ hàng
 function getQuantityInCart($id_sp) {
