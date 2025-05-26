@@ -1,0 +1,62 @@
+#hoanthanhmain {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d4af37;
+    text-align: center;
+}
+
+.ordered-report {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+.ordered p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 15px 0;
+    color: #555;
+}
+
+.ordered p strong {
+    color: #d4af37;
+}
+
+#return-home {
+    margin-top: 40px;
+}
+
+#return-home a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #d4af37;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#return-home a:hover {
+    background-color: #b8860b;
+}
+
+.thank-you {
+    font-size: 22px;
+    margin-top: 40px;
+    color: #333;
+    font-style: italic;
+}
+.order-tracking-link-ht {
+    text-decoration: none;
+    color: rgb(246, 158, 58);
+}
+.order-tracking-link-ht:hover {
+    color: rgb(250, 9, 9);
+}

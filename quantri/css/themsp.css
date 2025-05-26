@@ -1,0 +1,125 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container */
+#main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form table */
+#add-prd {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#add-prd td {
+    padding: 10px 0;
+}
+
+#add-prd label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+/* Input fields */
+#add-prd input[type="text"],
+#add-prd input[type="file"],
+#add-prd textarea,
+#add-prd select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#add-prd textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+/* Error messages */
+span[style*="color:red;"] {
+    color: #d9534f;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Radio buttons */
+#add-prd input[type="radio"] {
+    margin: 0 5px 0 0;
+}
+
+/* Submit and Reset buttons */
+#add-prd input[type="submit"],
+#add-prd input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+#add-prd input[type="submit"]:hover,
+#add-prd input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+#add-prd input[type="reset"] {
+    background-color: #6c757d;
+}
+
+#add-prd input[type="reset"]:hover {
+    background-color: #5a6268;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #main {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    #add-prd {
+        display: block;
+    }
+    
+    #add-prd td {
+        width: 100%;
+    }
+    
+    #add-prd input[type="text"],
+    #add-prd input[type="file"],
+    #add-prd textarea,
+    #add-prd select {
+        width: 100%;
+    }
+}

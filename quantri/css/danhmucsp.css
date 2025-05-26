@@ -1,0 +1,26 @@
+.btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.btn-edit {
+    background-color: #4CAF50; /* Màu xanh cho nút Chỉnh sửa */
+    margin-right: 5px;
+}
+
+.btn-delete {
+    background-color: #f44336; /* Màu đỏ cho nút Xóa */
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+.btn-them{
+    background-color: #4CAF50;
+    color: #eee6e6;
+    padding: 3px;
+    border-radius: 3px;
+
+}

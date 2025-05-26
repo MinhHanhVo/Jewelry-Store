@@ -1,0 +1,265 @@
+@charset "utf-8";
+a{
+    text-decoration: none;
+}
+/* Resetting margins and paddings */
+body, ul, li, p, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+#header {
+    background-color: #273c3d;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#header a img {
+    max-height: 50px;
+    vertical-align: middle;
+}
+
+/* Navbar styling */
+#navbar {
+	margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+#navbar ul li {
+    position: relative;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+#navbar ul li a:hover {
+    background-color: #444;
+}
+
+/* User info styling */
+#user-info {
+	margin-left: 250px;
+    display: flex;
+    /* align-items: center; */
+    color: #fff;
+    gap: 30px;
+}
+
+#user-info p {
+    margin: 0;
+}
+
+#user-info p span {
+    font-weight: bold;
+}
+
+#user-info p a {
+    color: #f9f9f9;
+    text-decoration: underline;
+}
+
+/* Main content styling */
+#body {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 5px;
+}
+
+/* Table styling */
+#body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#body table th, #body table td {
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#body table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+#body table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Action buttons */
+#body .action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#body .action-buttons a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+#body .action-buttons a:hover {
+    background-color: #0056b3;
+}
+
+#body .action-buttons a.delete {
+    background-color: #dc3545;
+}
+
+#body .action-buttons a.delete:hover {
+    background-color: #c82333;
+}
+
+	
+
+
+/* danh muc sp */
+    .row {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .table-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid #ccc;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

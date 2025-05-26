@@ -1,0 +1,176 @@
+/* Styles for the body specific to order management */
+.order-management-body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Styles for the main title specific to order management */
+.order-management-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styles for the order table specific to order management */
+.order-management-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.order-management-header th, .order-management-row td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-management-header th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #555;
+}
+
+.order-management-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.order-management-row:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styles for the select dropdown specific to order status */
+.order-status-select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+/* Styles for buttons specific to order management */
+.update-status-button, .view-details-link {
+    padding: 6px 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+
+.update-status-button {
+    background-color: #2196F3;
+}
+
+.update-status-button:hover {
+    background-color: #0b7dda;
+}
+
+.view-details-link {
+    background-color: #4CAF50;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.view-details-link:hover {
+    background-color: #45a049;
+}
+
+/* Styles for specific status options within order management */
+.order-status-select option[value="Chưa thanh toán"] {
+    color: #ff9800;
+}
+
+.order-status-select option[value="Đang giao hàng"] {
+    color: #00bcd4;
+}
+
+.order-status-select option[value="Đã thanh toán"] {
+    color: #4CAF50;
+}
+
+/* Button to show/hide paid orders */
+/* Existing button styles */
+.show-button {
+    margin-left: 10px;
+    float: right;
+    margin-bottom: 20px;
+    padding: 6px 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.show-button:hover {
+    background-color: #0056b3;
+}
+
+/* New active state for buttons */
+.show-button.active {
+    background-color: #1b1d1b; /* Example active color, can be customized */
+    color: #fff;
+}
+
+
+
+/* Styles for the search form specific to order management */
+.search-form {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.search-input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-button {
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+.back-button {
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.back-button:hover {
+    background-color: #e64a19;
+}
+/* search */
+.timkiem{
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+}
+.dhktt{
+    color: rgb(222, 56, 56);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 230px;
+}

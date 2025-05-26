@@ -1,0 +1,130 @@
+/* General styling for the container of the form */
+.prd-block {
+    max-width: 800px; /* Set maximum width */
+    margin: 0 auto; /* Center align the container */
+    padding: 20px;
+    background-color: #ffffff; /* Change to a more neutral background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer box shadow */
+}
+
+/* Title for the invoice confirmation section */
+.prd-block h2 {
+    text-align: center;
+    font-size: 28px; /* Slightly larger font size */
+    margin-bottom: 25px; /* Increased margin for spacing */
+    color: #333; /* Text color */
+    font-weight: bold; /* Make the title bold */
+}
+
+/* Table styling for product information */
+.payment table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px; /* Increased margin for spacing */
+    background-color: #f7f7f7; /* Light background for better contrast */
+    border-radius: 8px;
+    overflow: hidden; /* Rounded corners of the table */
+}
+
+/* Header styling for the table */
+#invoice-bar {
+    background-color: #3498db; /* Change to a more vibrant blue */
+    color: #fff; /* White text color */
+    text-align: left;
+    font-weight: bold;
+}
+
+/* General row styling for the table */
+.payment table tr {
+    border-bottom: 1px solid #dcdcdc; /* Light gray border */
+}
+
+/* Cell styling for the table */
+.payment table td {
+    padding: 12px; /* Increase padding for better spacing */
+    vertical-align: middle;
+}
+
+/* Styling for the product name */
+.prd-name {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500; /* Slightly bold */
+}
+
+/* Styling for product price and total */
+.prd-price, .prd-total {
+    color: #e74c3c; /* A more vibrant red color */
+    font-weight: bold;
+}
+
+/* Form styling for customer information */
+.form-payment ul {
+    list-style: none;
+    padding: 0;
+}
+
+.form-payment li {
+    margin-bottom: 20px; /* Increase spacing between form fields */
+}
+
+/* Label styling in the form */
+.info-cus label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #555; /* A more subtle gray color */
+}
+
+/* Input field styling */
+.info-cus input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s; /* Smooth transition for focus effect */
+}
+
+/* Focus effect for input fields */
+.info-cus input[type="text"]:focus {
+    border-color: #3498db; /* Border color changes on focus */
+}
+
+/* Styling for submit and reset buttons */
+.form-payment input[type="submit"],
+.form-payment input[type="reset"] {
+    padding: 12px 25px; /* Increase padding for better click area */
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db; /* Same vibrant blue as header */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* select */
+.info-cus select:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Đổ bóng khi focus */
+}
+.info-cus select{
+    border-radius: 5px;
+}
+
+
+/* Hover effect for buttons */
+.form-payment input[type="submit"]:hover,
+.form-payment input[type="reset"]:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Error message styling */
+.error-message {
+    color: #e74c3c; /* Bright red color for error messages */
+    font-size: 0.9em;
+    margin-top: 5px;
+}

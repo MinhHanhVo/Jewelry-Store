@@ -1,0 +1,289 @@
+/* Grid system */
+[class*="col-"] {
+    float: left;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* Product block */
+.prd-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 1px solid #e2e2e2;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prd-only {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 30px;
+
+}
+
+.prd-img {
+    flex: 1;
+    position: relative;
+}
+
+.prd-img img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.small-img img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.small-img img:hover {
+    transform: scale(1.1);
+}
+
+.prd-intro {
+    flex: 2;
+    margin-top: 0;
+}
+
+.prd-intro h3 {
+    color: #333;
+    font-family: Open Sans, Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-bottom: 2px solid #d9534f;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.prd-intro p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.prd-intro span {
+    font-weight: bold;
+    color: #d9534f;
+}
+/* thêm, mua hàng */
+.btn-success {
+    padding: 12px 25px;
+    background-color: #dd241d;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* transition: background-color 0.3s; */
+}
+
+.btn-success:hover {
+    background-color: #6c3331;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Comment section */
+.prd-comment {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.prd-comment h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.prd-comment ul {
+    list-style: none;
+    padding: 0;
+}
+
+.prd-comment li {
+    margin-bottom: 15px;
+}
+
+.binhluansm {
+    text-align: center;
+}
+
+.prd-comment .required {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+.prd-comment input[type="text"],
+.prd-comment textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.prd-comment input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.prd-comment input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.comment-list {
+    margin-top: 30px;
+}
+
+.comment-list ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.comment-list .com-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.comment-list .com-title span {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.comment-list .com-details {
+    font-size: 1em;
+    color: #555;
+    margin-top: 5px;
+}
+
+
+/* Out of stock styling */
+.out-of-stock {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+/* đánh giá sao */
+.rating-box {
+    border: 1px solid #ddd;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.rating-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating-score {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.rating-text {
+    font-size: 0.9em;
+    color: #666;
+    margin-right: 10px;
+}
+
+.stars {
+    color: #f5a623;
+}
+
+.like-info {
+    display: flex;
+    align-items: center;
+}
+
+.like-info i {
+    font-size: 1.5em;
+    color: #666;
+    margin-right: 10px;
+}
+
+.like-count {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.like-text {
+    color: #666;
+}
+
+/* sao */
+.rating-bar {
+    /* width: 100%; */
+    margin-top: 5px;
+    margin-left: 40px;
+    /* max-width: 400px; */
+    /* margin: 20px auto; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.rating-label {
+    width: 60px;
+}
+
+.rating-bar-fill {
+    flex-grow: 1;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.rating-fill {
+    background-color: black;
+    height: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+.rating-fill.empty {
+    background-color: transparent;
+}
+

@@ -1,0 +1,41 @@
+/* Container bao quanh slider */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Slider */
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+/* Slider content */
+.slider-content {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Chiều cao của slider, bạn có thể thay đổi */
+    overflow: hidden;
+}
+
+/* Ảnh trong slider */
+.slider-content img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ảnh sẽ bao phủ toàn bộ khung hình */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Ảnh hiện tại sẽ hiển thị */
+.slider-content img.active {
+    opacity: 1;
+}
