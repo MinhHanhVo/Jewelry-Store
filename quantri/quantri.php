@@ -8,7 +8,7 @@ require "../config/ketnoi.php";
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Trang sức Hạnh Phương</title>
+    <title>Jewelry Admin</title>
     <link rel="stylesheet" type="text/css" href="css/quantri.css" />
     <script type="text/javascript">
         function confirmLogout() {

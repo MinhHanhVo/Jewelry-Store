@@ -170,7 +170,7 @@ $result = mysqli_query($conn, $sql);
     <?php
     } else {
         // If no rows are returned, display a message
-        echo "<p class='dhktt'>Đơn hàng không tồn tại!</p>";
+        echo "<p class='dhktt'>Chưa có đơn hàng!</p>";
     }
     ?>
 

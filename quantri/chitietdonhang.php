@@ -10,7 +10,7 @@
             $id_donhang = $_GET['id_donhang'];
 
             // Kết nối đến cơ sở dữ liệu
-            require "../cauhinh/ketnoi.php";
+            require "../config/ketnoi.php";
 
             if (!$conn) {
                 die("Kết nối không thành công: " . mysqli_connect_error());

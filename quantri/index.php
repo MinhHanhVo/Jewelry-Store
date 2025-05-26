@@ -34,7 +34,7 @@
 <html>
 <head>
 	<meta charset="utf8" />
-	<title>Trang sức Hạnh Phương</title>
+	<title>Jewelry Store</title>
 	<link rel="stylesheet" type="text/css" href="css/dangnhap.css" />
 </head>
 <body>
