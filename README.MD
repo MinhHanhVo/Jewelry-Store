@@ -41,6 +41,10 @@ Người dùng có thể xem,tìm kiếm sản phẩm, thêm vào giỏ hàng, �
 
 ![Trang chủ](images_product/trangchu.png)
 
+### Xem tất cả sản phẩm
+
+![ViewProduct](images_product/viewproduct.png)
+
 ### Chi tiết sản phẩm:
 
 ![Chi tiết sản phẩm](images_product/chitietsanpham.png)
